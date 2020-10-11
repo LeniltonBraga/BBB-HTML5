@@ -6,7 +6,7 @@
     "start": "coffee index.coffee"
   },
   "dependencies": {
-    "hapi": "2.6.0",
+    "hapi": "18.1.0",
     "joi": "2.7.0",
     "coffee-script": "1.7.1",
     "js-sha1": "0.1.1",
