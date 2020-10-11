@@ -17,7 +17,7 @@
     "history": "^2.1.2",
     "image-size": "~0.5.0",
     "meteor-node-stubs": "^0.2.3",
-    "node-sass": "~3.8.0",
+    "node-sass": "~4.14.1",
     "probe-image-size": "~2.1.1",
     "react": "~15.3.1",
     "react-addons-css-transition-group": "~15.3.1",
