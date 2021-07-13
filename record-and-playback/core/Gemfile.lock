@@ -2,7 +2,8 @@ GEM
   remote: http://rubygems.org/
   specs:
     absolute_time (1.0.0)
-    addressable (2.4.0)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     builder (3.2.2)
     curb (0.9.3)
     fastimage (2.0.0)
@@ -16,6 +17,7 @@ GEM
       pkg-config (~> 1.1.7)
     open4 (1.3.4)
     pkg-config (1.1.7)
+    public_suffix (4.0.6)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -33,8 +35,6 @@ GEM
       rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
-    streamio-ffmpeg (2.1.0)
-      multi_json (~> 1.8)
     tilt (2.0.5)
     trollop (2.1.2)
     vegas (0.1.11)
@@ -48,13 +48,12 @@ DEPENDENCIES
   builder
   curb
   fastimage
-  mime-types (= 2.6.2)
+  mime-types
   nokogiri
   open4
   redis
   resque
   rubyzip
-  streamio-ffmpeg
   trollop
 
 BUNDLED WITH
